@@ -21,18 +21,48 @@ A simple **Flask-based Cloud Storage App** that allows users to **upload and del
 ---
 
 ## 📂 Project Structure
-loud_storage_app/
-│
-├── app.py ───▶ Main file that runs the Flask app
-│ └── Controls routes like upload, view, delete
-│
-├── templates/ ───▶ HTML pages shown in browser
-│ ├── index.html ───▶ Home page (upload form)
-│ └── files.html ───▶ Displays uploaded files
-│
-├── static/ ───▶ Contains CSS, JS, and images used by templates
-│ └── style.css ───▶ Basic page styling
-│
-├── uploads/ ───▶ Stores uploaded files (ignored in Git)
-│
-└── README.md ───▶ Documentation for the project
+🧠 1. app.py
+
+🎯 Purpose: Main entry point of the Flask app.
+
+⚙️ Functions: Handles routes for:
+
+Uploading files
+
+Viewing uploaded files
+
+Deleting files
+
+🖥️ 2. templates/
+
+📂 Folder for HTML templates used by Flask.
+
+Contains:
+
+🏠 index.html → Home page (file upload form)
+
+📄 files.html → Displays uploaded files list
+
+🎨 3. static/
+
+💅 Contains all static files such as CSS, JavaScript, and images.
+
+Includes:
+
+🎨 style.css → Basic styling for the web interface
+
+📦 4. uploads/
+
+🗂️ Stores all uploaded files.
+
+🔒 This folder is ignored in Git (listed in .gitignore) to prevent uploading user files to the repository.
+
+📘 5. README.md
+
+🧾 Documentation file explaining:
+
+Project purpose
+
+Setup and usage steps
+
+Technologies used
